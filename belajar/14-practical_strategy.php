@@ -74,7 +74,7 @@ desired effect
             </div>
             <!-- /.info-box-content -->
           </div>
-          <a href="15-Learning_evaluation.php" class="btn btn-primary btn-block"> ambil tes </a>
+          <a href="15-learning_evaluation.php" class="btn btn-primary btn-block"> ambil tes </a>
       </div>
     </div>
   </div>
