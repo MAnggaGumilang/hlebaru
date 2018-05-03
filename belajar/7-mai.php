@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MTS | MAI 2</title>
+  <title>MTS | MAI 7</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../Assets/css/bootstrap.min.css">
@@ -104,7 +104,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index.php" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>M</b>TS</span>
       <!-- logo for regular state and mobile devices -->
@@ -283,10 +283,10 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">&nbsp;</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="../dashboard.php"><i class="fa fa-bar-chart"></i> <span>Dashboard</span></a></li>
-        <li><a href="../panduan.php"><i class="fa fa-info-circle"></i> <span>Panduan</span></a></li>
-        <li><a href="../perkuliahan.php"><i class="fa fa-sticky-note-o"></i> <span>Tentang Perkuliahan</span></a></li>
-        <li><a href="../profile.php"><i class="fa fa-gear"></i> <span>Profile</span></a></li>
+        <li><a href="#"><i class="fa fa-bar-chart"></i> <span>Dashboard</span></a></li>
+        <li><a href="#"><i class="fa fa-info-circle"></i> <span>Panduan</span></a></li>
+        <li><a href="#"><i class="fa fa-sticky-note-o"></i> <span>Tentang Perkuliahan</span></a></li>
+        <li><a href="#"><i class="fa fa-gear"></i> <span>Profile</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-book"></i> <span>Belajar</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->

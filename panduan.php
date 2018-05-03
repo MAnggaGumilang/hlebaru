@@ -275,9 +275,9 @@ desired effect
           <h3 class="box-title"> Informasi Tentang Penggunaan Sistem </h3>
         </div>
         <div class="box-body">
-          <object data="Assets/materi/sample.pdf#page=2" type="application/pdf" width="100%" height="1048px">
-                                        <iframe src="Assets/materi/sample.pdf#page=2" style="border: none;" width="100%" height="100%">
-                                        This browser does not support PDFs. Please download the PDF to view it: <a href="Assets/materi/sample.pdf#page=2">Download PDF</a>
+          <object data="Assets/materi/info.pdf" type="application/pdf" width="100%" height="1048px">
+                                        <iframe src="Assets/materi/sample.pdf" style="border: none;" width="100%" height="100%">
+                                        This browser does not support PDFs. Please download the PDF to view it: <a href="Assets/materi/sample.pdf">Download PDF</a>
                                         </iframe>
                                         </object>
         </div>

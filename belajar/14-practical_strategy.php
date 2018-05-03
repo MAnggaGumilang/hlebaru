@@ -86,7 +86,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index.php" class="logo">
+    <a href="../dashboard.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>M</b>TS</span>
       <!-- logo for regular state and mobile devices -->
@@ -234,10 +234,10 @@ desired effect
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="profile.php" class="btn btn-default btn-flat">Profil</a>
+                  <a href="../profile.php" class="btn btn-default btn-flat">Profil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="index.php" class="btn btn-default btn-flat">Keluar</a>
+                  <a href="../index.php" class="btn btn-default btn-flat">Keluar</a>
                 </div>
               </li>
             </ul>
@@ -269,10 +269,10 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">&nbsp;</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="dashboard.php"><i class="fa fa-bar-chart"></i> <span>Dashboard</span></a></li>
-        <li><a href="panduan.php"><i class="fa fa-info-circle"></i> <span>Panduan</span></a></li>
-        <li><a href="perkuliahan.php"><i class="fa fa-sticky-note-o"></i> <span>Tentang Perkuliahan</span></a></li>
-        <li><a href="profile.php"><i class="fa fa-gear"></i> <span>Profile</span></a></li>
+        <li><a href="#"><i class="fa fa-bar-chart"></i> <span>Dashboard</span></a></li>
+        <li><a href="#"><i class="fa fa-info-circle"></i> <span>Panduan</span></a></li>
+        <li><a href="#"><i class="fa fa-sticky-note-o"></i> <span>Tentang Perkuliahan</span></a></li>
+        <li><a href="#"><i class="fa fa-gear"></i> <span>Profile</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-book"></i> <span>Belajar</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->

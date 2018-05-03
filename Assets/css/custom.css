@@ -17,6 +17,10 @@ legend {
 .content {
   padding: 30px;
 }
+
+body, p, h6, h5, a, li {
+  font-size: 17px;
+}
 /* custom css for MTS */
 #profile label {
 	    display: block;
@@ -87,7 +91,7 @@ legend {
 	text-decoration: underline;
 }*/
 .learning-card {
-	height: 410px;
+	height: 450px;
 }
 .d-progress {
 	text-align: center;
