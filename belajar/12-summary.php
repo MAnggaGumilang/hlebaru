@@ -372,7 +372,7 @@ desired effect
         </section>
       </div>
       <!-- /.tab-pane -->
-          <a href="14-practical_strategy.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
+          <a href="14-practical_strategy_one.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
     </section>
     <!-- /.content -->
   </div>

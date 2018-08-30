@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MTS | Draw</title>
+  <title>MTS | Practical Strategy </title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../Assets/css/bootstrap.min.css">
@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="../Assets/css/codemirror.css">
   <link rel="stylesheet" href="../Assets/css/froala_editor.pkgd.css">
   <link rel="stylesheet" href="../Assets/css/froala_style.css">
-  <link rel="stylesheet" href="../Assets/css/fine-uploader-gallery.css">
   <link rel="stylesheet" href="../Assets/css/custom.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,82 +32,6 @@
   <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-                <script type="text/template" id="qq-template-gallery">
-        <div class="qq-uploader-selector qq-uploader qq-gallery" qq-drop-area-text="Drop files here">
-            <div class="qq-total-progress-bar-container-selector qq-total-progress-bar-container">
-                <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-total-progress-bar-selector qq-progress-bar qq-total-progress-bar"></div>
-            </div>
-            <div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone>
-                <span class="qq-upload-drop-area-text-selector"></span>
-            </div>
-            <div class="qq-upload-button-selector qq-upload-button">
-                <div>Upload a file</div>
-            </div>
-            <span class="qq-drop-processing-selector qq-drop-processing">
-                <span>Processing dropped files...</span>
-                <span class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"></span>
-            </span>
-            <ul class="qq-upload-list-selector qq-upload-list" role="region" aria-live="polite" aria-relevant="additions removals">
-                <li>
-                    <span role="status" class="qq-upload-status-text-selector qq-upload-status-text"></span>
-                    <div class="qq-progress-bar-container-selector qq-progress-bar-container">
-                        <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-progress-bar-selector qq-progress-bar"></div>
-                    </div>
-                    <span class="qq-upload-spinner-selector qq-upload-spinner"></span>
-                    <div class="qq-thumbnail-wrapper">
-                        <img class="qq-thumbnail-selector" qq-max-size="120" qq-server-scale>
-                    </div>
-                    <button type="button" class="qq-upload-cancel-selector qq-upload-cancel">X</button>
-                    <button type="button" class="qq-upload-retry-selector qq-upload-retry">
-                        <span class="qq-btn qq-retry-icon" aria-label="Retry"></span>
-                        Retry
-                    </button>
-
-                    <div class="qq-file-info">
-                        <div class="qq-file-name">
-                            <span class="qq-upload-file-selector qq-upload-file"></span>
-                            <span class="qq-edit-filename-icon-selector qq-edit-filename-icon" aria-label="Edit filename"></span>
-                        </div>
-                        <input class="qq-edit-filename-selector qq-edit-filename" tabindex="0" type="text">
-                        <span class="qq-upload-size-selector qq-upload-size"></span>
-                        <button type="button" class="qq-btn qq-upload-delete-selector qq-upload-delete">
-                            <span class="qq-btn qq-delete-icon" aria-label="Delete"></span>
-                        </button>
-                        <button type="button" class="qq-btn qq-upload-pause-selector qq-upload-pause">
-                            <span class="qq-btn qq-pause-icon" aria-label="Pause"></span>
-                        </button>
-                        <button type="button" class="qq-btn qq-upload-continue-selector qq-upload-continue">
-                            <span class="qq-btn qq-continue-icon" aria-label="Continue"></span>
-                        </button>
-                    </div>
-                </li>
-            </ul>
-
-            <dialog class="qq-alert-dialog-selector">
-                <div class="qq-dialog-message-selector"></div>
-                <div class="qq-dialog-buttons">
-                    <button type="button" class="qq-cancel-button-selector">Close</button>
-                </div>
-            </dialog>
-
-            <dialog class="qq-confirm-dialog-selector">
-                <div class="qq-dialog-message-selector"></div>
-                <div class="qq-dialog-buttons">
-                    <button type="button" class="qq-cancel-button-selector">No</button>
-                    <button type="button" class="qq-ok-button-selector">Yes</button>
-                </div>
-            </dialog>
-
-            <dialog class="qq-prompt-dialog-selector">
-                <div class="qq-dialog-message-selector"></div>
-                <input type="text">
-                <div class="qq-dialog-buttons">
-                    <button type="button" class="qq-cancel-button-selector">Cancel</button>
-                    <button type="button" class="qq-ok-button-selector">Ok</button>
-                </div>
-            </dialog>
-        </div>
-    </script>
 </head>
 <!--
 BODY TAG OPTIONS:
@@ -131,6 +54,32 @@ desired effect
 |---------------------------------------------------------|
 -->
 <body class="hold-transition skin-black sidebar-collapse sidebar-mini " data-gr-c-s-loaded="true">
+     <!-- Modal 1 -->
+<div class="modal fade" id="modal-hasil" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-lg">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="info-box">
+            <span class="info-box-icon bg-aqua">
+                            <img src="../Assets/img/teacher.png" class="img-circle" width="75px">
+            </span>
+
+            <div class="info-box-content">
+              <span class="info-box-number">Hasil kode pemrogramanmu tepat!</span>
+              <h3>Berdasarkan hasil pengecekan sistem, kamu mendapatkan nilai A</h3>
+              <p> Pembelajaran telah berakhir, kamu dapat mengambil test evaluasi </p>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <a href="15-learning_evaluation.php" class="btn btn-primary btn-block"> ambil tes </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal 1 -->
 <div class="wrapper">
 
   <!-- Main Header -->
@@ -335,7 +284,20 @@ desired effect
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
      <section class="content-header">
-      <div class="box box-warning collapsed-box menu-top">
+
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-book"></i> Belajar </a></li>
+        <li class="active">Practical Strategy</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content container-fluid">
+
+      <!--------------------------
+        | Your Page Content Here |
+        -------------------------->
+        <div class="box box-warning collapsed-box">
             <div class="box-header with-border">
               <h3 class="box-title">SRL Progress</h3>
 
@@ -368,7 +330,7 @@ desired effect
       <h4> Learning </h4>
     </div>
   </li>
-    <li class="li">
+    <li class="li complete">
     <div class="status">
       <h4> Practical Strategy </h4>
     </div>
@@ -387,79 +349,47 @@ desired effect
             </div>
             <!-- /.box-body -->
           </div>
-          <ul class="nav nav-tabs">
-      <li class="active"><a href="#control-sidebar-home-tab" data-toggle="tab">Materi</a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab">Draw Tools</a></li>
-      </ul>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-book"></i> Belajar </a></li>
-        <li class="active">Draw</li>
-      </ol>
-    </section>
 
-    <!-- Main content -->
-    <section class="content container-fluid">
+                  <div class="callout callout-info">
+          <div class="row">
+            <div class="col-lg-1" style="text-align: right;">
+              <img src="../Assets/img/teacher.png" class="img-circle" width="100px">
+            </div>
+            <div class="col-lg-11">
+            <h3>Saatnya Belajar Algoritma dengan Practical Strategy</h3>
+            <p>Pada langkah Pertama Mahasiswa Diminta Mengurutkan Pseudocode berdasarkan Soal Algoritma yang diberikan dibawah. </p>
+            </div>
+        </div>
+      </div>
 
-      <!--------------------------
-        | Your Page Content Here |
-        -------------------------->
             <!-- Tab panes -->
-               <!-- Tab panes -->
-    <div class="tab-content">
-      <!-- Home tab content -->
-      <div class="tab-pane active" id="control-sidebar-home-tab">
-        <section class="content">
-          <div class="row">
-             <div class="box box-primary">
+               <div class="box box-info">
         <div class="box-header with-border">
-          <h3 class="box-title">Materi Pembelajaran</h3>
+          <h3 class="box-title">Soal Algoritma</h3>
         </div>
         <div class="box-body">
-          <object data="../Assets/materi/sample.pdf" type="application/pdf" width="100%" height="1048px">
-                                        <iframe src="../Assets/materi/sample.pdf" style="border: none;" width="100%" height="100%">
-                                        This browser does not support PDFs. Please download the PDF to view it: <a href="../Assets/materi/sample.pdf">Download PDF</a>
-                                        </iframe>
-                                        </object>
+          <p> Tulisah sebuah program untuk menghitung luas lingkaran </p>
         </div>
         <!-- /.box-body -->
       </div>
-          </div>
-        </section>
-      </div>
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
-      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
-      <div class="tab-pane" id="control-sidebar-settings-tab">
-        <section class="content">
-          <div class="row">
-             <div class="box">
+      <div class="box box-success">
         <div class="box-header with-border">
-          <h3 class="box-title">Instruksi Strategi Draw</h3>
+          <h3 class="box-title">Urutan Pseudocode</h3>
         </div>
         <div class="box-body">
-           <ul>
-                                        <li> Pada strategi draw ini, kalian diperbolehkan menggunakan tools apapun untuk membuat diagram/mind map/atau jenis grafis yang lain sebagai proses pemahaman materi yang sudah kalian baca </li>
-                                        <li> Silahkan menggunakan aplikasi apapun untuk membuat diagram, Untuk aplikasi yang direkomendasikan dapat menggunakan <a href="https://www.draw.io/"> Draw IO </a> </li>
-                                        <li> Silahkan membuat diagram baru, dan login menggunakan akun Google anda agar dapat menyimpan hasil diagram yang telah anda buat dengan Google Drive </li>
-                                        <li> Setelah selesai membuat diagram, silahkan unggah hasil pembuatan diagram anda ke dalam kotak upload di bawah ini (dalam format jpeg/png) </li>
-                                        <li> Hasil unggah diagram akan mempengaruhi penilaian dosen terhadap pemahaman materi kalian </li>
-                                    </ul>
-                                    <div id="uploader-gallery"></div>
+          <p> &nbsp; </p>
         </div>
         <!-- /.box-body -->
-      </div>
+         <div class="box-footer">
+                                      <div style="text-align: right">
+                    <a href="#control-sidebar-settings-tab" class="btn btn-primary" data-toggle="tab"> <i class="fa fa-code"></i> Submit </a>
+                  </div>
 
-          </div>
-        </section>
+                </div>
       </div>
-      <!-- /.tab-pane -->
-          <a href="14-practical_strategy_one.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+       <a href="14-practical_strategy_two.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
+</div>
+</section>
 
   <!-- Main Footer -->
   <footer class="main-footer">
@@ -470,7 +400,6 @@ desired effect
     <!-- Default to the left -->
     <strong>Copyright &copy; 2018 <a href="#">DTETI FT UGM</a>.</strong> Template By <a href="https://adminlte.io"> Almsaeed Studio. </a>
   </footer>
-</div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED JS SCRIPTS -->
@@ -485,33 +414,8 @@ desired effect
 <script src="../Assets/js/codemirror.js"></script>
 <script src="../Assets/js/xml.js"></script>
 <script src="../Assets/js/froala_editor.pkgd.min.js"></script>
-<script src="../Assets/js/fine-uploader.js"></script>
-
-<!-- Optionally, you can add Slimscroll and FastClick plugins.
-     Both of these plugins are recommended to enhance the
-     user experience. -->
 <script>
-    $(function() {
-        $(".dial").knob();
-    });
     $(function() { $('textarea').froalaEditor() });
-     var galleryUploader = new qq.FineUploader({
-            element: document.getElementById("uploader-gallery"),
-            template: 'qq-template-gallery',
-            request: {
-                endpoint: '/server/uploads'
-            },
-            thumbnails: {
-                placeholders: {
-                    waitingPath: '/source/placeholders/waiting-generic.png',
-                    notAvailablePath: '/source/placeholders/not_available-generic.png'
-                }
-            },
-            validation: {
-                allowedExtensions: ['jpeg', 'jpg', 'gif', 'png']
-            }
-        });
 </script>
-
 </body>
 </html>

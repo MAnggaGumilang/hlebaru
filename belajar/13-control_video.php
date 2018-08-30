@@ -340,7 +340,7 @@ desired effect
                 </div>
             </div>
           </div>
-          <a href="14-practical_strategy.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
+          <a href="14-practical_strategy_one.php" class="btn btn-success btn-block"> Lanjutkan Belajar </a>
 </section>
 </div>
   <!-- Main Footer -->
