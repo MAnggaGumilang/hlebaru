@@ -287,7 +287,7 @@ desired effect
 
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-book"></i> Belajar </a></li>
-        <li class="active">Draw</li>
+        <li class="active">Practical Strategy</li>
       </ol>
     </section>
 
