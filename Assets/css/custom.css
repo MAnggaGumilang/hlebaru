@@ -1,4 +1,9 @@
 /* general */
+
+textarea {
+  width: 100%;
+}
+
 input[type=checkbox], input[type=radio] {
 	margin: 10px;
 }
